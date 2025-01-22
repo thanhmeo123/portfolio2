@@ -1,0 +1,29 @@
+{
+    "myname": "Thành Đần",
+    "about": "Tôi là một nhà phát triển front-end đầy đam mê, có khả năng tạo ra các ứng dụng web mạnh mẽ và dễ dàng mở rộng. Với 2 năm kinh nghiệm thực tế, tôi đã trau dồi các kỹ năng của mình trong các công nghệ front-end như React, Vue và Next.js, cũng như các công nghệ back-end như Node.js, MySQL và MongoDB. Mục tiêu của tôi là tận dụng chuyên môn của mình để tạo ra các giải pháp sáng tạo, thúc đẩy tăng trưởng kinh doanh và mang lại trải nghiệm người dùng vượt trội.",
+
+    "title": "Đôi Nét",
+    "desc": "Tôi là một nhà phát triển front-end tận tâm và đa năng, luôn đam mê tạo ra các ứng dụng web hiệu quả và thân thiện với người dùng. Với 2 năm kinh nghiệm chuyên môn, tôi đã làm việc với nhiều công nghệ khác nhau bao gồm React, Vue, Next.js, Node.js, MySQL và MongoDB. Hành trình phát triển web của tôi bắt đầu từ sự tò mò sâu sắc về cách mọi thứ vận hành, và đã phát triển thành sự nghiệp nơi tôi không ngừng nỗ lực học hỏi và thích ứng với những thử thách mới. Tôi thích làm việc trong môi trường cộng tác và đam mê giải quyết các vấn đề phức tạp để mang lại các giải pháp chất lượng cao. Ngoài việc code, tôi thích vận động, khám phá các công nghệ mới và đóng góp vào các dự án mã nguồn mở.",
+    "targetTitle": "Mục tiêu ngắn hạn:",
+    "descTarget": "Mục tiêu ngắn hạn của tôi là trở thành một Junior trong vòng hai năm tới, nơi tôi mong muốn tích lũy được nhiều kinh nghiệm. Bằng cách trau dồi kỹ năng và làm việc hiệu quả, tôi mong muốn mang lại giá trị gia tăng cho công ty. Tôi cam kết liên tục cải thiện và thích nghi với những thử thách mới để đóng góp hiệu quả cho đội.",
+    "targetTitle1": "Mục tiêu dài hạn:",
+    "descTarget1": "Mục tiêu dài hạn của tôi là đạt được vị trí senior trong công ty để đóng góp vào sự phát triển và tăng trưởng liên tục của công ty. Tôi cam kết sẽ tích lũy những kỹ năng và kinh nghiệm cần thiết để tạo ra những tác động ý nghĩa lên tổ chức và giúp thúc đẩy sự thành công của công ty. Tôi luôn nỗ lực để thăng tiến trong sự nghiệp và đảm nhận nhiều trách nhiệm hơn để đạt được mục tiêu này.",
+
+    "title5": "Công Nghệ",  
+
+    "title2": "Kinh Nghiệm",   
+    "desc1": "Phát triển và duy trì các ứng dụng web bằng JavaScript, React.js và Node.js. Hợp tác với các nhóm đa chức năng để cung cấp các sản phẩm phần mềm chất lượng cao đúng thời hạn.",
+    "desc2": "Thiết kế và phát triển giao diện người dùng cho các ứng dụng web bằng Vuejs, Next.js và React. Làm việc chặt chẽ với các nhà phát triển back-end để tích hợp các thành phần front-end với API Node.js. Triển khai các thiết kế đáp ứng và tối ưu hóa hiệu suất front-end.",
+    "desc3": "Đóng góp vào quá trình phát triển các ứng dụng web bằng JavaScript, React.js và Node.js. Quản lý cơ sở dữ liệu và triển khai các giải pháp lưu trữ dữ liệu bằng MongoDB. Làm việc chặt chẽ với các quản lý sản phẩm để ưu tiên các tính năng và cải tiến.",
+    "experienceYear1": "2022 - Hiện tại",
+
+    "title3": "Dự Án", 
+    "desc7": "Một trang web thương mại điện tử đầy đủ chức năng với các tính năng như danh sách sản phẩm, giỏ hàng và xác thực người dùng.",
+    "desc8": "Một ứng dụng để quản lý các nhiệm vụ và dự án, với các tính năng như tạo nhiệm vụ, chỉ định và theo dõi tiến độ.",
+    "desc9": "Một trang web portfolio cá nhân giới thiệu các dự án, kỹ năng và thông tin liên hệ.",
+    "desc5": "Một nền tảng để tạo và xuất bản các bài đăng trên blog, với các tính năng như chỉnh sửa văn bản đa dạng, bình luận và hồ sơ người dùng.",
+
+    "title4": "Liên Hệ", 
+
+    "": ""
+}

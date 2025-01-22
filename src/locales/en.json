@@ -1,0 +1,34 @@
+{
+    "myname": "Finn's Ngu",
+    "about": "I am a passionate front-end developer with the ability to create powerful and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies such as React, Vue, and Next.js, as well as back-end technologies such as Node.js, MySQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.",
+    
+    "title": "About Me",
+    "desc": "I am a dedicated and versatile front-end developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies including React, Vue, Next.js, Node.js, MySQL, and MongoDB. My web development journey began with a deep curiosity about how things work and has evolved into a career where I am constantly striving to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. In addition to coding, I enjoy being active, exploring new technologies, and contributing to open source projects.",
+    "targetTitle":"Short-term goal:",
+    "descTarget":"My short-term goal is to become a Junior within the next two years, where I aim to accumulate a significant amount of experience. By honing my skills and working efficiently, I strive to bring added value to the company. I am committed to continuously improving and adapting to new challenges in order to contribute effectively to the team.",
+    "targetTitle1":"Long-term goal:",
+    "descTarget1":"My long-term goal is to attain a senior position within the company in order to contribute to its continued growth and development. I am committed to acquiring the necessary skills and experience to make a meaningful impact on the organization and help drive its success. I am dedicated to advancing my career and taking on increased responsibilities in order to achieve this goal.",
+
+
+    "title5": "Technologies",
+
+    "title2": "Experience",
+    "desc1": "Developed and maintained web applications using JavaScript, React.js, and Node.js. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
+    "desc2": "Designed and developed user interfaces for web applications using Vuejs, Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
+    "desc3": "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
+    "experienceYear1":"2022 - Present",
+
+    "title3": "Projects",
+    "desc7": "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+    "desc8": "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    "desc9": "A personal portfolio website showcasing projects, skills, and contact information.",
+    "desc5": "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    
+
+    "title4": "Contact",
+
+
+
+    "":""
+    
+  }
