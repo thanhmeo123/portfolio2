@@ -15,8 +15,8 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
-  const { t } = useTranslation();
-
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language;
   const cvUrl = "../file/CV_NguyenCongThanh-fresher.pdf"; // Đường dẫn đến CV của bạn
   const filename = "CV_NguyenCongThanh-fresher.pdf";
   const buttonText = "Download CV";
@@ -30,7 +30,12 @@ const Hero = () => {
                 variants={container(0)}
                 initial="hidden"
                 animate="visible"
-                className="pb-16 text-5xl font-thin tracking-tight lg:mt-16 lg:text-5xl"
+                className={`pb-16 font-thin tracking-tight lg:mt-16 
+                  ${
+                    currentLanguage === "vi"
+                      ? "text-4xl lg:text-5xl"
+                      : "text-5xl lg:text-7xl"
+                  }`}
               >
                 {t("myname")}
               </motion.h1>
