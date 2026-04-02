@@ -1,85 +1,73 @@
-import React from "react";
 import { HERO_CONTENT } from "../constants";
 import imgAvatar from "../assets/me5.png";
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import DownloadButton from "./DownloadButton.jsx";
-
-const container = (delay) => ({
-  hidden: { x: -100, opacity: 0 },
-  visible: {
-    x: 0,
-    opacity: 1,
-    transition: { duration: 0.5, delay: delay },
-  },
-});
+import cvFile from "../file/Cv_NguyenCongThanh_En.pdf";
 
 const Hero = () => {
   const { t, i18n } = useTranslation();
   const currentLanguage = i18n.language;
-  const cvUrl = "../file/CV_NguyenCongThanh-fresher.pdf"; // Đường dẫn đến CV của bạn
-  const filename = "CV_NguyenCongThanh-fresher.pdf";
+  const cvUrl = cvFile;
+  const filename = "Cv_NguyenCongThanh_En.pdf";
   const buttonText = "Download CV";
+  
   return (
-    <>
-      <div className="bored-b border-neutral-900 pb-4 lg:mb-35 ">
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2">
-            <div className="flex flex-col items-center  lg:items-start">
-              <motion.h1
-                variants={container(0)}
-                initial="hidden"
-                animate="visible"
-                className={`pb-16 font-thin tracking-tight lg:mt-16 
-                  ${
-                    currentLanguage === "vi"
-                      ? "text-4xl lg:text-5xl"
-                      : "text-5xl lg:text-7xl"
-                  }`}
-              >
-                {t("myname")}
-              </motion.h1>
-              <motion.span
-                variants={container(0.25)}
-                initial="hidden"
-                animate="visible"
-                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text 
-                text-3xl tracking-tight text-transparent"
-              >
-                Front-End Developer
-              </motion.span>
-              <motion.p
-                variants={container(0.5)}
-                initial="hidden"
-                animate="visible"
-                className="my-2 max-w-xl text-xl py-6 font-light tracking-tighter"
-              >
-                {t(HERO_CONTENT)}
-              </motion.p>
-              <div className="">
-                <DownloadButton
-                  cvUrl={cvUrl}
-                  filename={filename}
-                  buttonText={buttonText}
-                />
-              </div>
-            </div>
+    <div className="border-b border-neutral-800/50 pb-20 lg:mb-32 pt-8">
+      <div className="flex flex-wrap items-center">
+        <div className="w-full lg:w-1/2">
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6 }}
+              className={`pb-6 font-bold tracking-tight text-white ${currentLanguage === "vi" ? "text-5xl lg:text-6xl" : "text-6xl lg:text-7xl"} drop-shadow-md`}
+            >
+              {t("myname")}
+            </motion.h1>
+            <motion.span
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-2xl md:text-3xl tracking-tight text-transparent font-semibold"
+            >
+              Front-End Developer
+            </motion.span>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="my-6 max-w-xl text-lg font-normal tracking-wide text-neutral-300 leading-relaxed"
+            >
+              {t(HERO_CONTENT)}
+            </motion.p>
+            <motion.div 
+               initial={{ opacity: 0, y: 20 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.6, delay: 0.6 }}
+               className="mt-4">
+              <DownloadButton cvUrl={cvUrl} filename={filename} buttonText={buttonText} />
+            </motion.div>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-8">
-            <div className="flex justify-center ">
-              <motion.img
-                initial={{ x: 100, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{ duration: 1.1, delay: 0.3 }}
-                className="rounded-2xl  h-full lg:h-[35rem]  "
+        </div>
+        <div className="w-full lg:w-1/2 lg:p-8 mt-16 lg:mt-0">
+          <div className="flex justify-center">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="relative rounded-[2rem] border-[8px] border-neutral-800/80 shadow-[0_0_40px_rgba(120,119,198,0.3)] overflow-hidden w-64 sm:w-72 md:w-80 lg:w-[380px] bg-neutral-900 inline-block"
+            >
+              <img
+                className="w-full h-auto block"
                 src={imgAvatar}
-                alt="AvatarFinn"
+                alt="Avatar"
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -5,7 +5,6 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = "about";
 
-export const ABOUT_TEXT = "desc";
 
 export const EXPERIENCES = [
   {
